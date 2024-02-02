@@ -1,5 +1,30 @@
-.header{
+*{
+    font-family: 'roboto';
+}
+
+header{
 
     background-color: #1F2937;
     padding: 0 200px;
+}
+
+.header-topbar{
+
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.header-logo{
+    font-size: 28px;
+    color: #F9FAF8;
+    margin: 20px auto 20px 0;
+}
+
+.header-link{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 20px 0 20px 100px; 
+    border-style: solid; border-color: yellow;
 }
