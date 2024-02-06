@@ -79,3 +79,30 @@ button{
 .left .secondary-text{
     margin-top: 0;
 }
+
+.second-section{
+    margin: 50px 0;
+}
+
+.second-section .content{
+    display: flex;
+     justify-content:space-between;
+      margin: 0 350px;
+}
+
+.second-section .content .element-container{
+    width: 150px;
+}
+
+.illustration{
+    width: 150px;
+    height: 150px;
+    border-style: solid; 
+    border-radius: 18px; 
+    border-color: #3882F6;  
+}
+
+.illustration-text{
+    text-align: center; 
+    color: #1F2937;
+}
