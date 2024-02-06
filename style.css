@@ -5,7 +5,25 @@
 header{
 
     background-color: #1F2937;
-    padding: 0 200px;
+    padding: 0 250px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+button{
+
+    background-color: #3882F6;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+    color: #F9FAF8;
+    font-weight: 800;
+    border: none;
 }
 
 .header-topbar{
@@ -18,13 +36,35 @@ header{
 
 .header-logo{
     font-size: 28px;
+    font-weight:bold;
     color: #F9FAF8;
     margin: 20px auto 20px 0;
 }
 
 .header-link{
+    margin: 20px 0 20px 100px; 
+}
+
+.secondary-text{
     font-size: 18px;
     color: #E5E7EB;
-    margin: 20px 0 20px 100px; 
-    border-style: solid; border-color: yellow;
+}
+
+.header-content{
+
+    display:flex;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+}
+.header-content .left{
+    max-width:50%;
+    margin-right:50px;
+}
+
+.header-content .right{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-width:50%;
+    background-color: grey;
 }
