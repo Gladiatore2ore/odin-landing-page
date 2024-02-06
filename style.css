@@ -62,7 +62,7 @@ button{
 
     display:flex;
     flex-wrap: nowrap;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 .header-content .left{
     max-width:50%;
