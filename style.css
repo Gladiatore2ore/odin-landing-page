@@ -86,12 +86,13 @@ button{
 
 .second-section .content{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     margin: 0 320px;
 }
 
 .second-section .content .element-container{
     width: 150px;
+    margin: 0 30px;
 }
 
 .illustration{
